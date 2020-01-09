@@ -44,5 +44,70 @@ paramAreCd: 05 (if Daejeon)
 [examples/fnCrntTrnStnLoc_do_paramAreCd_02.json]
 
 
+## Get Line info
+
+### Request URL
+POST http://visual.railportal.kr/RailContents/altmInfoSys/getLnList.do
+
+### cookie
+JSESSIONID: JSESSIONID (not required)
+
+### Parameter
+areCd: 01 (if Seoul)
+areCd: 02 (if Busan)
+areCd: 03 (if Daegu)
+areCd: 04 (if Gwangju)
+areCd: 05 (if Daejeon)
+
+### Example Response
+(Not Ready)
+
+
+
+## Get Station Status
+
+### Request URL
+POST http://visual.railportal.kr/RailContents/altmInfoSys/getRunTimeInfo.do
+
+### cookie
+JSESSIONID: JSESSIONID (not required)
+
+### Parameter
+areCd: 01 (if Seoul)
+areCd: 02 (if Busan)
+areCd: 03 (if Daegu)
+areCd: 04 (if Gwangju)
+areCd: 05 (if Daejeon)
+railOprIsttCd: Railway-Company-Code
+lnCd: Line-Number-Code
+prprStinCd: Station-Number-Code
+Example Request: areCd=01&railOprIsttCd=KR&lnCd=1&prprStinCd=0324
+
+### Example Response
+(Not Ready))
+
+
+## Get Timetable of the Station
+
+### Request URL
+POST http://visual.railportal.kr/RailContents/altmInfoSys/getStinTimetable.do
+
+### cookie
+JSESSIONID: JSESSIONID (not required)
+
+### Parameter
+dayCd: 8 (Week)
+dayCd: 7 (Saturday)
+dayCd: 9 (Sunday/Holiday)
+areCd: 01 (if Seoul)
+areCd: 02 (if Busan)
+areCd: 03 (if Daegu)
+areCd: 04 (if Gwangju)
+areCd: 05 (if Daejeon)
+railOprIsttCd: Railway-Company-Code
+lnCd: Line-Number-Code
+prprStinCd: Station-Number-Code
+Example Request: dayCd=8&areCd=03&railOprIsttCd=DG&lnCd=1&prprStinCd=0790
+
 ## Backup scripts
 Under scripts folder
