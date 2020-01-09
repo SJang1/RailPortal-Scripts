@@ -1,5 +1,5 @@
 # RailPortal-Scripts
-
+Scripts used in http://visual.railportal.kr/RailContents/korLines/basic/index.do?gbvMreaWideCd=01 (Not made by me)
 
 ## Get Train Stations Info
 
