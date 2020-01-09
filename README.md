@@ -7,7 +7,7 @@
 GET http://visual.railportal.kr/RailContents/ext/js/korLines/subway_line_info_01.js
 
 ### cookie
-JSESSIONID: JSESSIONID
+JSESSIONID: JSESSIONID (not required)
 
 ### info_(code)
 01 (if Seoul)
@@ -30,7 +30,7 @@ JSESSIONID: JSESSIONID
 GET http://visual.railportal.kr/RailContents/korLines/TrainLocStatus/fnCrntTrnStnLoc.do?paramAreCd=01
 
 ### cookie
-JSESSIONID: JSESSIONID
+JSESSIONID: JSESSIONID (not required)
 
 ### Parameter
 paramAreCd: 01 (if Seoul)
